@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Store</title>
+  
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+
+
+</head>
+<style>
+
+	input[type=checkbox] {accent-color: blue;font-size: 15px;}
+
+	body,button,h3,.w3-wide,input[type=text] {font-family: 'Gowun Dodum', sans-serif;}
+
+</style>
+
+<body style="text-align: center; width: 100%;">
+	<p><h3 style="font-size:48px;">중앙 주식회사</h3></p>
+  <br><br><br>
+  <button id="btn1" class="w3-button w3-large w3-hover-purple w3-black w3-round">모든 직원 검색</button>
+  <button id="btn2" class="w3-button w3-large w3-hover-purple w3-black w3-round">모든 부서 정보 검색</button>
+
+  <input type="text" id="empone" name="empone" value="7369">
+  <input type="checkbox" id="like" name="like" value="checked">부분검색
+  <button id="btn3" class="w3-button w3-large w3-hover-purple w3-black w3-round">직원 검색</button>
+
+
+	
+  <div id="view"></div>
+  
+  <!-- 외부로 별도로 분리해 놓은 js 파일만 include -->
+  <!-- axios 사용을 위한 추가 설정 -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="step08.js"></script>
+  
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
